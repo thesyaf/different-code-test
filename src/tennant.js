@@ -3,7 +3,6 @@ import './tennant.css';
 import axios from 'axios';
 import Rent from './components/rent';
 
-
 class Tennant extends Component {
   constructor(props) {
     super(props)
@@ -33,9 +32,6 @@ class Tennant extends Component {
     return (
       <div className="App">
         <div className="main">
-  <p>
-  {JSON.stringify(tennant)}
-  </p>
           <div className="card">
             <div className="tennant">Tennant Name: {tenantName}</div>
             <div className="agreement">Start Date: {tennant.start_date}</div>

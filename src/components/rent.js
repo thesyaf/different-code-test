@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-
-
 class Rent extends Component {
     constructor(props) {
         super(props)
@@ -39,7 +37,6 @@ class Rent extends Component {
             );
             firstDay = new Date(endDay);
         }
-
         return tableRows
     }
 
@@ -54,7 +51,6 @@ class Rent extends Component {
                 break
             }
         }
-
         return firstRentDate
     }
 
@@ -119,7 +115,7 @@ class Rent extends Component {
     render() {
         console.log(this.state)
         let { startDate } = this.props;
-        let { firstPaymentDate, firstDay, dayRent } = this.state;
+        let { firstPaymentDate, dayRent } = this.state;
 
         return (
             <table className="payment-table">

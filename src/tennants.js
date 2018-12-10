@@ -41,7 +41,6 @@ class Tennants extends Component {
                   </div>
                 ) 
               )}
-
             </div>
           </div>
 
