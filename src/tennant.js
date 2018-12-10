@@ -34,8 +34,6 @@ class Tennant extends Component {
         <div className="main">
           <div className="card">
             <div className="tennant">Tennant Name: {tenantName}</div>
-            <div className="agreement">Start Date: {tennant.start_date}</div>
-            <div className="agreement">End Date: {tennant.end_date}</div>
             <div className="agreement">${tennant.rent} to be paid on {tennant.payment_day} {tennant.frequency}</div>
 
             <div className="payments">

@@ -5,6 +5,8 @@ This is my submission for the junior developer role.
 ## Approach
 
 As first and last weeks of the rent may not be a complete cycle, they were calculated seperately. 
+All complete cycles are calculated and rendered into the table. 
+Each tenant is captured through react router params to determine which id to request from the API.
 
 
 ## Packages Used
